@@ -63,13 +63,13 @@ section {
 }
 
 span:nth-child(2) {
-    font-size: 27px;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
 }
 
 section>span {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 section>div {
