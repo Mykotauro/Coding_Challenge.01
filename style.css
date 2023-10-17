@@ -60,22 +60,23 @@ main {
 
 section {
     height: 33%;
+    margin-bottom: 10px;
 }
 
 span:nth-child(2) {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     letter-spacing: 1px;
 }
 
 section>span {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 section>div {
-    height: 30px;
+    height: 20px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .average {
