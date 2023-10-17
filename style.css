@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Roboto+Condensed&family=Tilt+Neon&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body>div {
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 74%;
+    height: 90%;
+    margin: 1% 13% 9%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 100px 140px 150px;
+}
+
+header {
+    color: #00DD00;
+}
+
+img {
+    width: 300px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+nav,
+header {
+    text-align: center;
+}
+
+nav {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #00DD00;
+}
+
+main {
+    color: white;
+    height: 70%;
+    margin-top: 25px;
+}
+
+section {
+    height: 33%;
+}
+
+span:nth-child(2) {
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+section>span {
+    font-size: 20px;
+}
+
+section>div {
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.average {
+    background-color: goldenrod;
+    width: 30%;
+}
+
+.good {
+    background-color: green;
+    width: 64%;
+}
+
+.bad {
+    background-color: brown;
+    width: 15%;
+}
